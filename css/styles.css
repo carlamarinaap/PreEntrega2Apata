@@ -70,8 +70,13 @@ header {
 .tarjetaInterna {
   opacity: 0;
   width: 250px;
-  height: 300px;
   background-color: rgba(0,0,0, 0.5);
+  padding: 0.7rem;
+  border: 1px solid white;
+  border-radius: 5px;
+  text-align: center;
+  align-self: center;
+  margin: auto;
 }
 .tarjeta:hover .tarjetaInterna{
   opacity: 1;
@@ -123,6 +128,14 @@ header {
   /*CLASES*/
   .clases {
     display: none;
+  }
+  /*STAFF*/
+ 
+  .tarjetaInterna {
+    position: relative;
+    opacity: 1;
+    overflow: hidden;
+    top: 330px;
   }
 
 }
