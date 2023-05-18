@@ -78,38 +78,18 @@ header {
   align-self: center;
   margin: auto;
 }
-.tarjeta:hover .tarjetaInterna{
-  opacity: 1;
-}
-.milagros {
-  background-image: url(../img/Milagros.jpg);
-  background-size: cover;
-}
-.pia {
-  background-image: url(../img/Pia.jpg);
-  background-size: cover;
-}
-.gaston {
-  background-image: url(../img/Gaston.jpg);
-  background-size: cover;
-}
-.fernando {
-  background-image: url(../img/Fernando.jpg);
-  background-size: cover;
-}
-.sofia {
-  background-image: url(../img/Sofia.jpg);
-  background-size: cover;
-}
-.julio {
-  background-image: url(../img/Julio.jpg);
-  background-size: cover;
-}
+.tarjeta:hover .tarjetaInterna{opacity: 1;}
+
+.milagros, .pia, .gaston, .fernando, .sofia, .julio {background-size: cover;}
+.milagros {background-image: url(../img/Milagros.jpg);}
+.pia {background-image: url(../img/Pia.jpg);}
+.gaston {background-image: url(../img/Gaston.jpg);}
+.fernando {background-image: url(../img/Fernando.jpg);}
+.sofia {background-image: url(../img/Sofia.jpg);}
+.julio {background-image: url(../img/Julio.jpg);}
 
 /*SEDES*/
-.sede {
-  background-color: rgba(0,0,0, 0.5);
-}
+.sede {background-color: rgba(0,0,0, 0.5);}
 .bg_img {
   background-image: url(../img/gimnasios.jpg);
   background-size: cover;
