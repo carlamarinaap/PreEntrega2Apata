@@ -115,7 +115,6 @@ header {
   background-size: cover;
 }
 
-
 @media (max-width: 767px) {
   /*GENERAL*/
   .bodyInicio, .bodyLinks, .bg_img {
@@ -129,13 +128,8 @@ header {
   .clases {
     display: none;
   }
-  /*STAFF*/
- 
   .tarjetaInterna {
-    position: relative;
     opacity: 1;
-    overflow: hidden;
-    top: 330px;
   }
 
 }
