@@ -50,10 +50,6 @@ header {
 .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link  {
   color: #ffc107;
 }
-/*FOOTER*/
-footer ul li {
-  list-style-type: none;
-}
 
 /*INDEX*/
 .espaciado {
@@ -62,7 +58,7 @@ footer ul li {
 }
 
 /*CLASES*/
-.sedesClases ul li a{
+ ul li a{
   text-decoration: none;
 }
 
@@ -81,7 +77,7 @@ footer ul li {
   background-color: rgba(0,0,0, 0.5);
   padding: 0.7rem;
   border: 1px solid white;
-  border-radius: 5px;
+  border-radius: 0.3rem;
   text-align: center;
   align-self: center;
   margin: auto;
@@ -97,10 +93,20 @@ footer ul li {
 .julio {background-image: url(../img/Julio.jpg);}
 
 /*SEDES*/
-.sede {background-color: rgba(0,0,0, 0.5);}
+.sede {
+  background-color: rgba(0,0,0, 0.5);
+  border: 1px solid white;
+  border-radius: 0.3rem;
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem;
+}
 .bg_img {
   background-image: url(../img/gimnasios.jpg);
   background-size: cover;
+  border: 1px solid white;
+  border-radius: 0.3rem;
+  margin: 1rem auto;
 }
 
 @media (max-width: 767px) {
@@ -109,15 +115,12 @@ footer ul li {
     background-image: none;
   }
   /*SEDES*/
-  .container .bg_img {
-    border: none !important;
+  .bg_img {
+    border: none;
   }
   /*CLASES*/
   .clases {
     display: none;
   }
-  /* .tarjetaInterna {
-    opacity: 1;
-  } */
 
 }
