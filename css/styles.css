@@ -68,8 +68,12 @@ footer ul li {
 
 /*STAFF*/
 .tarjeta {
+  display: grid;
   height: 500px;
   width: 300px;
+  border: 1px solid white;
+  border-radius: 0.3rem;
+  margin: 1.5rem;
 }
 .tarjetaInterna {
   opacity: 0;
@@ -112,8 +116,8 @@ footer ul li {
   .clases {
     display: none;
   }
-  .tarjetaInterna {
+  /* .tarjetaInterna {
     opacity: 1;
-  }
+  } */
 
 }
